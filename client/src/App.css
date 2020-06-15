@@ -5,6 +5,74 @@ body {
     sans-serif;
 }
 
+body.dark-mode-disabled {
+  background-color: #fff
+}
+
+.dark-mode-disabled h1 {
+  color: black;
+}
+
+.dark-mode-disabled h2 {
+  color: black;
+}
+
+.dark-mode-disabled p {
+  color: black;
+}
+
+.dark-mode-disabled button {
+  color: white;
+  background-color: darkgreen;
+}
+
+.dark-mode-disabled button:hover {
+  color: black;
+  background-color: lightgray;
+}
+
+.dark-mode-disabled form {
+  color: black;
+  background-color: #fff;
+}
+
+.dark-mode-disabled label {
+  color: black;
+
+}
+
+.dark-mode-disabled input {
+  border: 2px solid black;
+}
+
+.dark-mode-disabled .container {
+  border-bottom: 1px solid black;
+}
+
+.dark-mode-disabled .success-message {
+  background-color: white;
+  color: black
+}
+
+.dark-mode-disabled .active {
+  color: white;
+}
+
+.dark-mode-disabled .cart > .plant-card {
+  border-bottom: 1px solid black;
+}
+
+.dark-mode-disabled .steps li {
+  background: darkgreen;
+  color: white;
+}
+
+
+/* .dark-mode-disabled h1, h2, p, button, label, form {
+  color: black
+} */
+
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -175,7 +243,7 @@ input[type="button"]:active,
 input:active {
   transition: 0.3s all;
   transform: translateY(3px);
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
   opacity: 0.8;
 }
 
